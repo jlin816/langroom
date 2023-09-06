@@ -10,7 +10,7 @@ In LangRoom, agents must learn to both move and talk. LangRoom contains four obj
 
 Play as a human:
 ```bash
-pip install -e .
+pip install langroom
 # Move with WASD
 # Speak tokens 1-10 with number keys 1234567890
 python run_gui.py
