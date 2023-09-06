@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langroom"
+version = "0.1.0"
+description = "A minimal gridworld environment for embodied question answering."
+authors = ["Jessy Lin <jessy81697@gmail.com>"]
+readme = "README.md"
+keywords = ["environment", "agent", "rl", "language"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "*"
+Pillow = "*"
+pygame = "*"
+imageio = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
