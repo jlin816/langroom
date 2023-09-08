@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "langroom"
-version = "0.1.0"
+version = "0.1.1"
 description = "A minimal gridworld environment for embodied question answering."
 authors = ["Jessy Lin <jessy81697@gmail.com>"]
 readme = "README.md"
 keywords = ["environment", "agent", "rl", "language"]
+packages = [ {"include" = "langroom.py"} ]
 
 [tool.poetry.dependencies]
 python = "^3.8"
