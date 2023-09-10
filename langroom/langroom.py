@@ -1,6 +1,6 @@
 from collections import deque
 
-import embodied
+from langroom import embodied
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
